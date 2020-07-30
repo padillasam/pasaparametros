@@ -1,0 +1,67 @@
+{
+	"folders": {},
+	"connections": {
+		"mysql5-17397b9889f-257da2e1e4cb7f0c": {
+			"provider": "mysql",
+			"driver": "mysql5",
+			"name": "agenda",
+			"save-password": true,
+			"show-system-objects": true,
+			"read-only": false,
+			"configuration": {
+				"host": "localhost",
+				"port": "3306",
+				"database": "agenda",
+				"url": "jdbc:mysql://localhost:3306/agenda",
+				"type": "dev",
+				"properties": {
+					"connectTimeout": "20000"
+				},
+				"auth-model": "native"
+			}
+		},
+		"mariaDB-17397d38679-320a7143403dc455": {
+			"provider": "mysql",
+			"driver": "mariaDB",
+			"name": "agenda 2",
+			"save-password": true,
+			"show-system-objects": true,
+			"read-only": false,
+			"configuration": {
+				"host": "localhost",
+				"port": "3306",
+				"database": "agenda",
+				"url": "jdbc:mysql://localhost:3306/agenda",
+				"type": "dev",
+				"auth-model": "native"
+			}
+		},
+		"mysql5-17397e7d490-786ee81e34a5f521": {
+			"provider": "mysql",
+			"driver": "mysql5",
+			"name": "agenda 3",
+			"save-password": true,
+			"show-system-objects": true,
+			"read-only": false,
+			"configuration": {
+				"host": "localhost",
+				"port": "3306",
+				"database": "agenda",
+				"url": "jdbc:mysql://localhost:3306/agenda",
+				"type": "dev",
+				"auth-model": "native",
+				"handlers": {}
+			}
+		}
+	},
+	"connection-types": {
+		"dev": {
+			"name": "Development",
+			"color": "255,255,255",
+			"description": "Regular development database",
+			"auto-commit": true,
+			"confirm-execute": false,
+			"confirm-data-change": false
+		}
+	}
+}
